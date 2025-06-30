@@ -1,6 +1,8 @@
 import os
 import argparse
 import shannon_fano
+import average_utils
+import export_utils
 from rich.console import Console
 from rich.table import Table
 import pandas as pd
@@ -32,9 +34,7 @@ for path in args.paths:
     else:
         print(f"Error in {path}")
 
-console = Console()
-
-# Procesar 
+# Procesar (por archivo)
 while queue:
     file = queue.pop(0)
     if os.path.isfile(file):
@@ -46,46 +46,12 @@ while queue:
         encoded["Filename"] = os.path.basename(file)
         results.append(encoded)
 
-        console.rule(f"[bold green]Processed: {file}")
-
-        console.print(f"[cyan]Total symbols:[/] {encoded['TotalSymbols']}")
-        console.print(f"[cyan]Entropy:[/] {encoded['TotalEntropy']:.4f}")
-        console.print(f"[cyan]Avg length:[/] {encoded['AverageLength']:.4f}")
-        console.print(f"[cyan]Bits:[/] {encoded['TotalBits']}")
-        console.print(f"[cyan]Efficiency:[/] {encoded['Efficiency']:.4f}")
-
-        table = Table(title=f"Symbol Details: {os.path.basename(file)}")
-
-        table.add_column("Symbol", justify="center")
-        table.add_column("Count", justify="right")
-        table.add_column("Prob", justify="right")
-        table.add_column("Code", justify="center")
-        table.add_column("Bits", justify="right")
-        table.add_column("Entropy", justify="right")
-
-        for sym in encoded["SymbolList"]:
-            table.add_row(
-                repr(sym["Symbol"]),
-                str(sym["Count"]),
-                f"{sym['Probability']:.4f}",
-                sym["Code"],
-                str(sym["TotalBits"]),
-                f"{sym["Entropy"]:.4f}"
-            )
-
-        console.print(table)
-
     else:
         print(f"Error: {file} not found")
 
+# Calcular promedios
+averages = average_utils.calculate_averages(results)
+
 # Probando exportacion a excel
 if args.excel:
-    output_dir = "excel"
-    os.makedirs(output_dir, exist_ok=True)
-
-    for result in results:
-        df = pd.DataFrame(result["SymbolList"])
-        filename = os.path.splitext(result["Filename"])[0]
-        output_path = os.path.join(output_dir, f"{filename}_shannon_fano.xlsx")
-        df.to_excel(output_path, index=False)
-        print(f"Exportado a Excel: {output_path}")
+    export_utils.export_to_excel(results, averages)
