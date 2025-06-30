@@ -1,8 +1,6 @@
 import os
 import argparse
-from operator import itemgetter
-from collections import Counter
-import math
+import shannon_fano
 import pandas as pd
 
 # Recibir archivos por parametro
@@ -12,6 +10,9 @@ args = parser.parse_args()
 
 # Cola de procesamiento
 queue = []
+
+# Lista de resultados
+results  = []
 
 # Encolar archivos a procesar
 for path in args.paths:
@@ -29,43 +30,24 @@ for path in args.paths:
 while queue:
     file = queue.pop(0)
     if os.path.isfile(file):
-        print(f"file: {file}")
-    else:
-        print("Error")
-
-# Generar datos del texto contenido en cada archivo  
-def generate_text_data(string: str):
-    result = {} # Diccionario de salida
-    symbol_data = [] # Lista de informacion por simbolo
-    total_symbols = len(string)
-    symbol_counts = Counter(string)
-    
-    for symbol, count in symbol_counts.items():
-        probability = count / total_symbols
-        inverse_probability = 1/probability
-        mutual_info = -math.log2(probability)
-        entropy = mutual_info * probability
+        with open(file, "r", encoding="utf-8") as f:
+            content = f.read()
         
-        symbol_data.append({
-            "Symbol": symbol,
-            "Count": count,
-            "Probability": probability,
-            "InverseProbability": inverse_probability,
-            "MutualInformation": mutual_info,
-            "Entropy": entropy
-        })
-    
-    # Ordenar (mayor a menor)
-    symbol_data.sort(key=itemgetter("Count"), reverse=True)
-    
-    # Totales
-    total_probability = sum(s["Probability"] for s in symbol_data)
-    total_entropy = sum(s["Entropy"] for s in symbol_data)
-    
-    # Rellenar diccionario
-    result["TotalSymbols"] = total_symbols
-    result["total_probability"] = total_probability
-    result["TotalEntropy"] = total_entropy
-    result["SymbolList"] = symbol_data
-    
-    return result
+        data = shannon_fano.generate_text_data(content)
+        encoded = shannon_fano.encode_shannon_fano(data)
+        encoded["Filename"] = os.path.basename(file)
+        results.append(encoded)
+
+        print(f"\nProcessed: {file}")
+        print(f"  Total symbols: {encoded['TotalSymbols']}")
+        print(f"  Entropy: {encoded['TotalEntropy']:.4f}")
+        print(f"  Avg length: {encoded['AverageLength']:.4f}")
+        print(f"  Bits: {encoded['TotalBits']}")
+        print(f"  Efficiency: {encoded['Efficiency']:.4f}")
+        print(f"\n{'Symbol':^10} {'Count':^10} {'Prob':^10} {'Code':^10} {'Bits':^10} {'Entropy':^10}")
+
+        for sym in encoded["SymbolList"]:
+            print(f"{repr(sym['Symbol']):^10} {sym['Count']:^10} {sym['Probability']:^10.4f} "
+                f"{sym['Code']:^10} {sym['TotalBits']:^10} {sym['Entropy']:^10.4f}")
+    else:
+        print(f"Error: {file} not found")
