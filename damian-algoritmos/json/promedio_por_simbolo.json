@@ -1,0 +1,1066 @@
+[
+    {
+        "Symbol": " ",
+        "AvgCount": 423.5,
+        "AvgProbability": 0.12626596417157998,
+        "AvgCodeLength": 3.0,
+        "AvgTotalBits": 1270.5,
+        "AvgEntropy": 0.3763337933114693
+    },
+    {
+        "Symbol": "e",
+        "AvgCount": 246.5,
+        "AvgProbability": 0.07659192982593054,
+        "AvgCodeLength": 4.0,
+        "AvgTotalBits": 986.0,
+        "AvgEntropy": 0.2838971768580246
+    },
+    {
+        "Symbol": "o",
+        "AvgCount": 215.0,
+        "AvgProbability": 0.06846644451121248,
+        "AvgCodeLength": 4.0,
+        "AvgTotalBits": 860.0,
+        "AvgEntropy": 0.2646811970391352
+    },
+    {
+        "Symbol": "t",
+        "AvgCount": 207.0,
+        "AvgProbability": 0.06713731626326203,
+        "AvgCodeLength": 4.0,
+        "AvgTotalBits": 828.0,
+        "AvgEntropy": 0.2611486273124537
+    },
+    {
+        "Symbol": "a",
+        "AvgCount": 188.5,
+        "AvgProbability": 0.060488504625854055,
+        "AvgCodeLength": 4.0,
+        "AvgTotalBits": 754.0,
+        "AvgEntropy": 0.2445557980904289
+    },
+    {
+        "Symbol": "i",
+        "AvgCount": 180.5,
+        "AvgProbability": 0.05679108932912435,
+        "AvgCodeLength": 4.0,
+        "AvgTotalBits": 722.0,
+        "AvgEntropy": 0.23496337132872797
+    },
+    {
+        "Symbol": "r",
+        "AvgCount": 167.0,
+        "AvgProbability": 0.051200702755221886,
+        "AvgCodeLength": 4.0,
+        "AvgTotalBits": 668.0,
+        "AvgEntropy": 0.21951627130250317
+    },
+    {
+        "Symbol": "n",
+        "AvgCount": 162.0,
+        "AvgProbability": 0.05159968510634977,
+        "AvgCodeLength": 4.0,
+        "AvgTotalBits": 648.0,
+        "AvgEntropy": 0.2205292395406632
+    },
+    {
+        "Symbol": "s",
+        "AvgCount": 141.0,
+        "AvgProbability": 0.04515036464450575,
+        "AvgCodeLength": 5.0,
+        "AvgTotalBits": 705.0,
+        "AvgEntropy": 0.20161481114297064
+    },
+    {
+        "Symbol": "l",
+        "AvgCount": 124.5,
+        "AvgProbability": 0.03874274710567081,
+        "AvgCodeLength": 4.5,
+        "AvgTotalBits": 588.5,
+        "AvgEntropy": 0.18169736252649213
+    },
+    {
+        "Symbol": "c",
+        "AvgCount": 101.5,
+        "AvgProbability": 0.030959176984278726,
+        "AvgCodeLength": 5.0,
+        "AvgTotalBits": 507.5,
+        "AvgEntropy": 0.1551899455802372
+    },
+    {
+        "Symbol": "d",
+        "AvgCount": 105.5,
+        "AvgProbability": 0.03490290779117908,
+        "AvgCodeLength": 5.0,
+        "AvgTotalBits": 527.5,
+        "AvgEntropy": 0.1684613986563575
+    },
+    {
+        "Symbol": "\n",
+        "AvgCount": 100.5,
+        "AvgProbability": 0.03256925123986936,
+        "AvgCodeLength": 5.0,
+        "AvgTotalBits": 502.5,
+        "AvgEntropy": 0.16068394415830245
+    },
+    {
+        "Symbol": "h",
+        "AvgCount": 77.0,
+        "AvgProbability": 0.01994326451456822,
+        "AvgCodeLength": 6.0,
+        "AvgTotalBits": 405.0,
+        "AvgEntropy": 0.10999049069970628
+    },
+    {
+        "Symbol": "u",
+        "AvgCount": 81.0,
+        "AvgProbability": 0.026255282370247816,
+        "AvgCodeLength": 5.0,
+        "AvgTotalBits": 405.0,
+        "AvgEntropy": 0.13769456059385204
+    },
+    {
+        "Symbol": "m",
+        "AvgCount": 67.0,
+        "AvgProbability": 0.020376877363165638,
+        "AvgCodeLength": 5.5,
+        "AvgTotalBits": 385.0,
+        "AvgEntropy": 0.11443316549271469
+    },
+    {
+        "Symbol": "p",
+        "AvgCount": 55.0,
+        "AvgProbability": 0.016379249796119044,
+        "AvgCodeLength": 6.0,
+        "AvgTotalBits": 330.0,
+        "AvgEntropy": 0.09707478745980913
+    },
+    {
+        "Symbol": "y",
+        "AvgCount": 56.0,
+        "AvgProbability": 0.017319638516136836,
+        "AvgCodeLength": 6.0,
+        "AvgTotalBits": 336.0,
+        "AvgEntropy": 0.1013448914120014
+    },
+    {
+        "Symbol": "g",
+        "AvgCount": 43.0,
+        "AvgProbability": 0.014567733351022526,
+        "AvgCodeLength": 6.0,
+        "AvgTotalBits": 258.0,
+        "AvgEntropy": 0.0885122034631372
+    },
+    {
+        "Symbol": "b",
+        "AvgCount": 38.0,
+        "AvgProbability": 0.01278060458020033,
+        "AvgCodeLength": 6.0,
+        "AvgTotalBits": 228.0,
+        "AvgEntropy": 0.08011510112885828
+    },
+    {
+        "Symbol": "f",
+        "AvgCount": 31.5,
+        "AvgProbability": 0.009218540875693099,
+        "AvgCodeLength": 7.0,
+        "AvgTotalBits": 220.5,
+        "AvgEntropy": 0.062224336726633314
+    },
+    {
+        "Symbol": "w",
+        "AvgCount": 25.5,
+        "AvgProbability": 0.007037551165340628,
+        "AvgCodeLength": 7.5,
+        "AvgTotalBits": 183.0,
+        "AvgEntropy": 0.04996727968587753
+    },
+    {
+        "Symbol": "P",
+        "AvgCount": 32.5,
+        "AvgProbability": 0.01125198515668593,
+        "AvgCodeLength": 6.5,
+        "AvgTotalBits": 215.5,
+        "AvgEntropy": 0.07241354952882152
+    },
+    {
+        "Symbol": ".",
+        "AvgCount": 24.5,
+        "AvgProbability": 0.0070080420794687,
+        "AvgCodeLength": 7.0,
+        "AvgTotalBits": 171.5,
+        "AvgEntropy": 0.04999387572757784
+    },
+    {
+        "Symbol": ",",
+        "AvgCount": 19.0,
+        "AvgProbability": 0.004750718948637607,
+        "AvgCodeLength": 7.5,
+        "AvgTotalBits": 135.0,
+        "AvgEntropy": 0.03571029870137638
+    },
+    {
+        "Symbol": "R",
+        "AvgCount": 15.5,
+        "AvgProbability": 0.003463293623696235,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 110.5,
+        "AvgEntropy": 0.02627554963912217
+    },
+    {
+        "Symbol": "\"",
+        "AvgCount": 15.0,
+        "AvgProbability": 0.0039039788978332043,
+        "AvgCodeLength": 8.0,
+        "AvgTotalBits": 109.0,
+        "AvgEntropy": 0.03074797418144263
+    },
+    {
+        "Symbol": "C",
+        "AvgCount": 17.0,
+        "AvgProbability": 0.0054204044842104445,
+        "AvgCodeLength": 8.0,
+        "AvgTotalBits": 136.0,
+        "AvgEntropy": 0.04078607384118521
+    },
+    {
+        "Symbol": "k",
+        "AvgCount": 14.0,
+        "AvgProbability": 0.003874469811961276,
+        "AvgCodeLength": 8.5,
+        "AvgTotalBits": 114.5,
+        "AvgEntropy": 0.03085528729592299
+    },
+    {
+        "Symbol": "I",
+        "AvgCount": 17.5,
+        "AvgProbability": 0.005890598844219341,
+        "AvgCodeLength": 7.5,
+        "AvgTotalBits": 134.0,
+        "AvgEntropy": 0.04350533023742481
+    },
+    {
+        "Symbol": "T",
+        "AvgCount": 10.5,
+        "AvgProbability": 0.002587044487019904,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 86.0,
+        "AvgEntropy": 0.021626342021939887
+    },
+    {
+        "Symbol": "•",
+        "AvgCount": 17.0,
+        "AvgProbability": 0.0035986452159187127,
+        "AvgCodeLength": 8.0,
+        "AvgTotalBits": 136.0,
+        "AvgEntropy": 0.029214990884524956
+    },
+    {
+        "Symbol": "x",
+        "AvgCount": 10.5,
+        "AvgProbability": 0.0029513963406782506,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 94.5,
+        "AvgEntropy": 0.024701448475032615
+    },
+    {
+        "Symbol": "L",
+        "AvgCount": 8.5,
+        "AvgProbability": 0.0019814985347885294,
+        "AvgCodeLength": 9.5,
+        "AvgTotalBits": 77.0,
+        "AvgEntropy": 0.016995872710321932
+    },
+    {
+        "Symbol": "S",
+        "AvgCount": 10.5,
+        "AvgProbability": 0.0033157481943365966,
+        "AvgCodeLength": 8.0,
+        "AvgTotalBits": 84.0,
+        "AvgEntropy": 0.027305699504138956
+    },
+    {
+        "Symbol": ">",
+        "AvgCount": 15.0,
+        "AvgProbability": 0.0031752751905165114,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 135.0,
+        "AvgEntropy": 0.026351299705086702
+    },
+    {
+        "Symbol": "H",
+        "AvgCount": 6.5,
+        "AvgProbability": 0.001558128509386328,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 59.5,
+        "AvgEntropy": 0.014048929123717097
+    },
+    {
+        "Symbol": "(",
+        "AvgCount": 6.0,
+        "AvgProbability": 0.0014522860030357777,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 49.0,
+        "AvgEntropy": 0.013282630325478998
+    },
+    {
+        "Symbol": ")",
+        "AvgCount": 6.0,
+        "AvgProbability": 0.0014522860030357777,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 55.0,
+        "AvgEntropy": 0.013282630325478998
+    },
+    {
+        "Symbol": "W",
+        "AvgCount": 10.0,
+        "AvgProbability": 0.0021168501270110076,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 90.0,
+        "AvgEntropy": 0.018805811080672724
+    },
+    {
+        "Symbol": ":",
+        "AvgCount": 7.5,
+        "AvgProbability": 0.002498517229404121,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 67.5,
+        "AvgEntropy": 0.02155674070386908
+    },
+    {
+        "Symbol": "[",
+        "AvgCount": 9.0,
+        "AvgProbability": 0.001905165114309907,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 81.0,
+        "AvgEntropy": 0.01721482096350415
+    },
+    {
+        "Symbol": "]",
+        "AvgCount": 9.0,
+        "AvgProbability": 0.001905165114309907,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 81.0,
+        "AvgEntropy": 0.01721482096350415
+    },
+    {
+        "Symbol": "E",
+        "AvgCount": 5.0,
+        "AvgProbability": 0.00142277691716385,
+        "AvgCodeLength": 9.5,
+        "AvgTotalBits": 46.0,
+        "AvgEntropy": 0.013417927226433896
+    },
+    {
+        "Symbol": "v",
+        "AvgCount": 10.0,
+        "AvgProbability": 0.004302961248961085,
+        "AvgCodeLength": 8.0,
+        "AvgTotalBits": 78.0,
+        "AvgEntropy": 0.03259879194872391
+    },
+    {
+        "Symbol": "A",
+        "AvgCount": 7.0,
+        "AvgProbability": 0.002574850649882744,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 64.0,
+        "AvgEntropy": 0.021924963495284985
+    },
+    {
+        "Symbol": "F",
+        "AvgCount": 4.5,
+        "AvgProbability": 0.0013169344108132997,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 45.0,
+        "AvgEntropy": 0.012586293261171364
+    },
+    {
+        "Symbol": "j",
+        "AvgCount": 4.0,
+        "AvgProbability": 0.0010289159776335761,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 37.0,
+        "AvgEntropy": 0.01006280500297883
+    },
+    {
+        "Symbol": "D",
+        "AvgCount": 5.5,
+        "AvgProbability": 0.002257323130831093,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 49.0,
+        "AvgEntropy": 0.019360714953516538
+    },
+    {
+        "Symbol": "с",
+        "AvgCount": 5.0,
+        "AvgProbability": 0.0010584250635055038,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 50.0,
+        "AvgEntropy": 0.010461330603841867
+    },
+    {
+        "Symbol": "/",
+        "AvgCount": 4.0,
+        "AvgProbability": 0.0013932678312919226,
+        "AvgCodeLength": 9.5,
+        "AvgTotalBits": 38.5,
+        "AvgEntropy": 0.013159745427257907
+    },
+    {
+        "Symbol": "q",
+        "AvgCount": 5.0,
+        "AvgProbability": 0.0019693046976513697,
+        "AvgCodeLength": 9.5,
+        "AvgTotalBits": 47.5,
+        "AvgEntropy": 0.01738450046545365
+    },
+    {
+        "Symbol": "!",
+        "AvgCount": 5.0,
+        "AvgProbability": 0.0019693046976513697,
+        "AvgCodeLength": 9.5,
+        "AvgTotalBits": 47.5,
+        "AvgEntropy": 0.01738450046545365
+    },
+    {
+        "Symbol": "'",
+        "AvgCount": 3.5,
+        "AvgProbability": 0.001105249398112199,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 35.0,
+        "AvgEntropy": 0.010853678684665448
+    },
+    {
+        "Symbol": "中",
+        "AvgCount": 4.0,
+        "AvgProbability": 0.000846740050804403,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 40.0,
+        "AvgEntropy": 0.008641653894493782
+    },
+    {
+        "Symbol": "文",
+        "AvgCount": 4.0,
+        "AvgProbability": 0.000846740050804403,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 44.0,
+        "AvgEntropy": 0.008641653894493782
+    },
+    {
+        "Symbol": "к",
+        "AvgCount": 4.0,
+        "AvgProbability": 0.000846740050804403,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 44.0,
+        "AvgEntropy": 0.008641653894493782
+    },
+    {
+        "Symbol": "U",
+        "AvgCount": 3.5,
+        "AvgProbability": 0.001287425324941372,
+        "AvgCodeLength": 9.5,
+        "AvgTotalBits": 33.5,
+        "AvgEntropy": 0.012249907072583863
+    },
+    {
+        "Symbol": "=",
+        "AvgCount": 4.0,
+        "AvgProbability": 0.000846740050804403,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 40.0,
+        "AvgEntropy": 0.008641653894493782
+    },
+    {
+        "Symbol": "M",
+        "AvgCount": 4.5,
+        "AvgProbability": 0.0018634621913008191,
+        "AvgCodeLength": 9.0,
+        "AvgTotalBits": 40.0,
+        "AvgEntropy": 0.016474662110779605
+    },
+    {
+        "Symbol": "ó",
+        "AvgCount": 4.0,
+        "AvgProbability": 0.0015754437581210956,
+        "AvgCodeLength": 9.5,
+        "AvgTotalBits": 38.0,
+        "AvgEntropy": 0.014414779980017028
+    },
+    {
+        "Symbol": "ç",
+        "AvgCount": 3.0,
+        "AvgProbability": 0.0006350550381033022,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 30.0,
+        "AvgEntropy": 0.006744812075789162
+    },
+    {
+        "Symbol": "у",
+        "AvgCount": 3.0,
+        "AvgProbability": 0.0006350550381033022,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 33.0,
+        "AvgEntropy": 0.006744812075789162
+    },
+    {
+        "Symbol": "8",
+        "AvgCount": 3.0,
+        "AvgProbability": 0.0006350550381033022,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 33.0,
+        "AvgEntropy": 0.006744812075789162
+    },
+    {
+        "Symbol": "-",
+        "AvgCount": 3.5,
+        "AvgProbability": 0.001469601251770545,
+        "AvgCodeLength": 9.5,
+        "AvgTotalBits": 33.0,
+        "AvgEntropy": 0.013466359070664718
+    },
+    {
+        "Symbol": "N",
+        "AvgCount": 2.5,
+        "AvgProbability": 0.0008935643854110981,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 25.5,
+        "AvgEntropy": 0.008995419420639096
+    },
+    {
+        "Symbol": "B",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0006055459522313746,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.006471931162446562
+    },
+    {
+        "Symbol": "简",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "体",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 24.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "體",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 24.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "ñ",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "日",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "本",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "語",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "ü",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "ê",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "и",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "й",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 24.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "O",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0007877218790605478,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.007995111869069062
+    },
+    {
+        "Symbol": "Y",
+        "AvgCount": 2.5,
+        "AvgProbability": 0.0010757403122402713,
+        "AvgCodeLength": 10.0,
+        "AvgTotalBits": 24.5,
+        "AvgEntropy": 0.01030117861166152
+    },
+    {
+        "Symbol": "_",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "í",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0007877218790605478,
+        "AvgCodeLength": 10.5,
+        "AvgTotalBits": 21.0,
+        "AvgEntropy": 0.007995111869069062
+    },
+    {
+        "Symbol": "2",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0007877218790605478,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.007995111869069062
+    },
+    {
+        "Symbol": "р",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 24.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "а",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "λ",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0004233700254022015,
+        "AvgCodeLength": 11.0,
+        "AvgTotalBits": 22.0,
+        "AvgEntropy": 0.004744196972649092
+    },
+    {
+        "Symbol": "正",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ä",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "å",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "한",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "국",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "어",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "z",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ह",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ि",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "न",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "्",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "द",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ी",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "Р",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ف",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ا",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ر",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "س",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ی",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "—",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0009698978058897209,
+        "AvgCodeLength": 10.5,
+        "AvgTotalBits": 19.5,
+        "AvgEntropy": 0.009220971874849796
+    },
+    {
+        "Symbol": "@",
+        "AvgCount": 2.0,
+        "AvgProbability": 0.0009698978058897209,
+        "AvgCodeLength": 10.5,
+        "AvgTotalBits": 19.5,
+        "AvgEntropy": 0.009220971874849796
+    },
+    {
+        "Symbol": "1",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "6",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "3",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "J",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "V",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "G",
+        "AvgCount": 1.5,
+        "AvgProbability": 0.0006818793727099973,
+        "AvgCodeLength": 10.5,
+        "AvgTotalBits": 15.0,
+        "AvgEntropy": 0.006914905132257339
+    },
+    {
+        "Symbol": "é",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.0003938609395302739,
+        "AvgCodeLength": 11.5,
+        "AvgTotalBits": 11.5,
+        "AvgEntropy": 0.0043914168740648045
+    },
+    {
+        "Symbol": "¡",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.0003938609395302739,
+        "AvgCodeLength": 11.5,
+        "AvgTotalBits": 11.5,
+        "AvgEntropy": 0.0043914168740648045
+    },
+    {
+        "Symbol": "©",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.0003938609395302739,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.0043914168740648045
+    },
+    {
+        "Symbol": "0",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.0003938609395302739,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.0043914168740648045
+    },
+    {
+        "Symbol": "5",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.0003938609395302739,
+        "AvgCodeLength": 11.5,
+        "AvgTotalBits": 11.5,
+        "AvgEntropy": 0.0043914168740648045
+    },
+    {
+        "Symbol": "ї",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "н",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ь",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "Ε",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "η",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ν",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ι",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "κ",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ά",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "繁",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ע",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ב",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ר",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 13.0,
+        "AvgTotalBits": 13.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "י",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    },
+    {
+        "Symbol": "ת",
+        "AvgCount": 1.0,
+        "AvgProbability": 0.00021168501270110075,
+        "AvgCodeLength": 12.0,
+        "AvgTotalBits": 12.0,
+        "AvgEntropy": 0.002583783499025647
+    }
+]

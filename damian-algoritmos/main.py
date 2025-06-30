@@ -13,7 +13,6 @@ parser.add_argument("paths", nargs='+', help="Archivos o carpetas a analizar")
 parser.add_argument("-e", "--excel", action="store_true", help="Exportar el resultado en formato Excel (.xlsx)")
 parser.add_argument("-c", "--csv", action="store_true", help="Exportar el resultado en formato CSV (.csv)")
 parser.add_argument("-j", "--json", action="store_true", help="Exportar el resultado en formato JSON (.json)")
-parser.add_argument("-ht", "--html", action="store_true", help="Exportar el resultado en formato HTML (.html)")
 args = parser.parse_args()
 
 # Cola de procesamiento
@@ -52,6 +51,11 @@ while queue:
 # Calcular promedios
 averages = average_utils.calculate_averages(results)
 
-# Probando exportacion a excel
 if args.excel:
     export_utils.export_to_excel(results, averages)
+    
+if args.csv:
+    export_utils.export_to_csv(results, averages)
+    
+if args.json:
+    export_utils.export_to_json(results, averages)
