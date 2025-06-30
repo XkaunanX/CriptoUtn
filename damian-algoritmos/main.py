@@ -3,9 +3,6 @@ import argparse
 import shannon_fano
 import average_utils
 import export_utils
-from rich.console import Console
-from rich.table import Table
-import pandas as pd
 
 # Recibir archivos por parametro
 parser = argparse.ArgumentParser(description="Analiza archivos de texto y genera estadisticas Shannon-Fano")
