@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 # Exportar a excel
-def export_to_excel(results, averages, output_dir="excel", filename="shannon_fano_analysis.xlsx"):
+def export_to_excel(results, averages, output_dir="excel", filename="analysis.xlsx"):
     os.makedirs(output_dir, exist_ok=True)
     output_path = os.path.join(output_dir, filename)
 
