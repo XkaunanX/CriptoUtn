@@ -1,4 +1,4 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import List, Dict, Tuple
 from collections import Counter
 import math
@@ -110,3 +110,24 @@ class ShannonFanoEncoder:
                 for s in self.simbolos
             ]
         }
+    
+    def imprimir_resumen(self):
+        resumen = self.resumen()
+        print("\n--- Resumen Shannon-Fano ---")
+        print(f"Texto original: {resumen['Texto original']}")
+        print(f"Total símbolos: {resumen['Total símbolos']}")
+        print(f"Entropía total: {resumen['Entropía total']:.4f}")
+        print(f"Longitud promedio: {resumen['Longitud promedio']:.4f}")
+        print(f"Eficiencia: {resumen['Eficiencia']:.2%}")
+        print("\nSímbolos:")
+        print(f"{'Carácter':^10} {'Frecuencia':^10} {'Prob':^10} {'IMutua':^10} {'Entropía':^10} {'Código':^10} {'Bits':^10}")
+        for s in resumen["Símbolos"]:
+            print(f"{s['Caracter']:^10} {s['Frecuencia']:^10} {s['Probabilidad']:^10.4f} {s['IMutua']:^10.4f} "
+                  f"{s['Entropía']:^10.4f} {s['Código']:^10} {s['BitsTotales']:^10}")
+
+
+if __name__ == "__main__":
+    texto = "La UTN Facultad Regional La Plata ofrece becas para proyectos de investigación en el área de encriptamiento y comunicación de datos. Estas becas permiten a los estudiantes participar en iniciativas tecnológicas avanzadas relacionadas con la seguridad informática, el cifrado de información y el diseño de protocolos de comunicación segura."
+    encoder = ShannonFanoEncoder(texto)
+    encoder.codificar()
+    encoder.imprimir_resumen()
