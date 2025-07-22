@@ -56,13 +56,13 @@ while queue:
 averages = average_utils.calculate_averages(results)
 
 if args.excel:
-    export_utils.export_to_excel(results, averages)
+    export_utils.export_to_excel(results, averages, encoding=args.algorithm)
     
 if args.csv:
-    export_utils.export_to_csv(results, averages)
+    export_utils.export_to_csv(results, averages, encoding=args.algorithm)
     
 if args.json:
-    export_utils.export_to_json(results, averages)
+    export_utils.export_to_json(results, averages, encoding=args.algorithm)
 
 end = time.time()
 
