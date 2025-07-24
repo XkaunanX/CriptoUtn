@@ -34,7 +34,7 @@ def dividir_simbolos(lista_simbolos):
     """Divide la lista de símbolos en dos partes con suma de probabilidades más equilibrada"""
     total = sum(s['Probabilidad'] for s in lista_simbolos)
     mitad = total / 2
-    mejor_idx = 0
+    mejor_id = 0
     mejor_diferencia = float('inf')
     acumulado = 0
 
@@ -45,7 +45,7 @@ def dividir_simbolos(lista_simbolos):
             mejor_diferencia = diferencia
             mejor_idx = i
 
-    return lista_simbolos[:mejor_idx + 1], lista_simbolos[mejor_idx + 1:]
+    return lista_simbolos[:mejor_id + 1], lista_simbolos[mejor_id + 1:]
 
 
 # TODO: Quitar codigos que esta dentro de ListaSimbolos
