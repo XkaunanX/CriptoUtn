@@ -1,0 +1,46 @@
+{
+    "TotalSimbolos": 6,
+    "ProbabilidadTotal": 1.0,
+    "EntropiaTotal": 2.2516,
+    "ListaSimbolos": [
+        {
+            "Simbolo": "a",
+            "Cantidad": 3,
+            "Probabilidad": 0.5,
+            "ProbabilidadInversa": 2.0,
+            "InformacionMutua": 1.0,
+            "Entropia": 0.5,
+            "Code": "0",
+            "LongitudCodigo": 1,
+            "TotalBits": 3,
+            "LongitudPromedio": 0.5
+        },
+        {
+            "Simbolo": "b",
+            "Cantidad": 2,
+            "Probabilidad": 0.3333,
+            "ProbabilidadInversa": 3.0,
+            "InformacionMutua": 1.585,
+            "Entropia": 0.528,
+            "Code": "10",
+            "LongitudCodigo": 2,
+            "TotalBits": 4,
+            "LongitudPromedio": 0.6666
+        },
+        {
+            "Simbolo": "c",
+            "Cantidad": 1,
+            "Probabilidad": 0.1667,
+            "ProbabilidadInversa": 6.0,
+            "InformacionMutua": 2.585,
+            "Entropia": 0.431,
+            "Code": "11",
+            "LongitudCodigo": 2,
+            "TotalBits": 2,
+            "LongitudPromedio": 0.3334
+        }
+    ],
+    "LongitudPromedio": 1.5,
+    "TotalBits": 9,
+    "Eficiencia": 1.5007
+}

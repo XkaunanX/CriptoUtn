@@ -1,3 +1,4 @@
+# Calculo de promedios
 def calculate_averages(results):
     total_files = len(results)
     # Promedio general

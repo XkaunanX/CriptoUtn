@@ -1,0 +1,31 @@
+{
+    "TotalSimbolos": 6,              # Total de caracteres
+    "ProbabilidadTotal": 1.0,        # Suma de probabilidades
+    "EntropiaTotal": 2.2516,         # Entropía total
+    "ListaSimbolos": [               # Lista de símbolos con sus estadísticas
+        {
+            "Simbolo": "a",
+            "Cantidad": 3,
+            "Probabilidad": 0.5,
+            "ProbabilidadInversa": 2.0,
+            "InformacionMutua": 1.0,
+            "Entropia": 0.5
+        },
+        {
+            "Simbolo": "b",
+            "Cantidad": 2,
+            "Probabilidad": 0.3333,
+            "ProbabilidadInversa": 3.0,
+            "InformacionMutua": 1.585,
+            "Entropia": 0.528
+        },
+        {
+            "Simbolo": "c",
+            "Cantidad": 1,
+            "Probabilidad": 0.1667,
+            "ProbabilidadInversa": 6.0,
+            "InformacionMutua": 2.585,
+            "Entropia": 0.431
+        }
+    ]
+}

@@ -1,9 +1,10 @@
 import os
 import argparse
-import shannon_fano
+import text_data
+import shannon
 import huffman
-import average_utils
-import export_utils
+import average
+import export
 import time
 
 # Recibir archivos por parametro
@@ -38,12 +39,12 @@ while queue:
         with open(file, "r", encoding="utf-8") as f:
             content = f.read()
         
+        data = text_data.generate_text_data(content)
+        
         # Seleccionar algoritmo
         if args.algorithm == "shannon":
-            data = shannon_fano.generate_text_data(content)
-            encoded = shannon_fano.encode_shannon_fano(data)
+            encoded = shannon.encode_shannon_fano(data)
         elif args.algorithm == "huffman":
-            data = huffman.generate_text_data(content)
             encoded = huffman.encode_huffman(data)
 
         encoded["Filename"] = os.path.basename(file)
@@ -53,16 +54,16 @@ while queue:
     else:
         print(f"Error: {file} not found")
 
-averages = average_utils.calculate_averages(results)
+averages = average.calculate_averages(results)
 
 if args.excel:
-    export_utils.export_to_excel(results, averages, encoding=args.algorithm)
+    export.export_to_excel(results, averages, encoding=args.algorithm)
     
 if args.csv:
-    export_utils.export_to_csv(results, averages, encoding=args.algorithm)
+    export.export_to_csv(results, averages, encoding=args.algorithm)
     
 if args.json:
-    export_utils.export_to_json(results, averages, encoding=args.algorithm)
+    export.export_to_json(results, averages, encoding=args.algorithm)
 
 end = time.time()
 

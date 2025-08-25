@@ -1,0 +1,171 @@
+Teoría Comunicación de Datos
+
+1) Distorsión de la transmisión: El ruido que es no continuo y esta constituido por pulsos o picos irregulares de corta duración y de amplitud relativamente grande es el.
+Ruido Impulsivo
+2) Retraso de propagación: Es mayor a medida que se incrementa la:
+La distancia
+3) Ruido térmico: ¿Qué efecto tiene con respecto al aumento de la frecuencia?
+Es independiente
+4) En la Transmisión Asincrónica, el problema de la temporización se resuelve
+Enviando cadenas no largas (5 a 8 bits) y aplicando codificación No Retorno a Cero (NRZ)
+5) En la Codificación NRZ-L (NON RETURN TO ZERO - LEVEL), es:
+Un nivel negativo para representar un valor binario y una tensión positiva para representar al otro.
+6) La codificación Manchester, es: 
+A una transición de bajo a alto representa un 1 una transición de alto a bajo representa un 0
+7) En la Codificación NRZ – L, una prolongada permanencia de la señal en nivel positivo o negativo durante la transmisión puede conducir a la situación denominada: 
+Desplazamiento de la línea base, que dificulta al receptor la adecuada decodificación de la información.
+8) La modulación 16 PSK consiste en:
+Se modula la fase de una portadora sinusoidal para transmitir datos digitales.
+En este caso, hay 16 posibles fases diferentes, equiespaciadas a lo largo de un círculo de 360°, es decir, cada símbolo se representa con una fase separada por 360° / 16 = 22,5°.
+Cada símbolo transmite 4 bits (ya que 2⁴ = 16), lo que implica una mayor eficiencia espectral comparado con 8-PSK o QPSK.
+9) El LCR (Control de la Paridad Longitudinal) consiste en:
+Se calcula un bit de paridad para cada columna y se crea una nueva fila de bits, que serán los bits de paridad de todo el bloque, a continuación, se añaden los bits de paridad al dato y se envían al receptor.
+Típicamente los datos se agrupan en unidades de múltiplos de ocho
+En esta técnica, los bloques de bits se organizan en forma de tablas (filas y columnas)
+10) En la Comprobación de Redundancia cíclica (CRC), la técnica se basa en:
+La división binaria
+La detección
+11) ¿Cómo se genera cada bit de redundancia en el Código Hamming?
+Forzando la paridad de un conjunto determinado de bits de datos.
+En el bit de redundancia R3 fuerza la paridad de todos aquellos bits de datos que dada una posición k, se reescriben como la suma de potencia de dos y en dicha suma posse algún termino de valor 4.
+12) En el algoritmo CHECKSUM, la idea es:
+En el receptor se realizan la suma de: Sum + Checksum y si el resultado es todo 1(uno), No hubo error.
+Se suman todas las palabras de 16bits que conforman el mensaje y se transmiten junto con el mensaje, el resultado de dicha suma se obtiene el Ca1. Este resultado recibe el nombre de Checksum.
+13) La mejor selección entre dos fuentes sin memoria es por su:
+Entropía 
+14) Simetría de forma de onda: Si todos los términos de una serie de Fourier son términos en seno y, además:
+Tiene un valor promedio igual a cero, sigue siendo una función impar.
+15) El Ancho de banda para señales analógicas es:
+La longitud, medida en Hertz, del rango de frecuencias en el que se concentra la mayor parte de la potencia de la señal. 
+16) Relación entre el ancho de banda y la velocidad de transmisión: si se mantiene constante la cantidad de armónicos y se le incrementa cada vez mas la frecuencia central, logramos:
+Mayor ancho de banda de la señal
+Mayor velocidad de transmisión 
+17) Análisis de la forma de onda por el método de Fourier: La frecuencia Fundamental o central es:
+La mínima cantidad de frecuencia necesaria para representar una forma de onda.
+18) Simetría de forma de onda: Si todos los términos de una serie de Fourier son términos armónicos impares:
+Si la serie contiene solo armónicos impares del seno, podemos decir que tiene una simetría de media onda y a su vez es una función impar.
+Si la seria contiene solo armónicos impares del coseno, podemos decir que tiene una simetría de media onda y a su vez es una función par.
+19) Análisis de la forma de onda por el método de Fourier: Una Armónica es:
+Un múltiple entero de la frecuencia fundamental.
+20) En la codificación Manchester diferencial, se pueden detectar errores si se descubre:
+Una ausencia de la transición esperada en la mitad del intervalo.
+
+21) Distorsión de transmisión: Después que el bit es enviado al medio de transmisión, el tiempo que tarda para que el bit llegue al final de su trayectoria física es:
+Retardo de propagación.
+22) Retraso de transmisión: Cunado se quiere transmitir un paquete fijo P, el retraso de transmisión es menor a medida que:
+La tasa de transmisión aumente.
+23) Aplicando la formula de Shannon: Para un ancho de banda dado: Cuando la relación potencia de señal/potencia Ruido De Ruido cada vez menor, se logra:
+Menor Capacidad de canal.
+24) En la Transmisión Sincrónica, el problema de la temporización se resuelve:
+Enviando cadenas largas y aplicando codificación Manchester o Manchester diferencial.
+25) La codificación NRZ-I (NON RETURN TO ZERO-LEVEL, INVERT ON ONES), es:
+Un 1 se codifica mediante la transición (bajo a alto o alto a bajo) al principio del intervalo de señalización. Un 0 se representa por la ausencia de transición.
+26) La codificación Manchester Diferencial es:
+La codificación de un 0 se representa por la presencia de una transición al principio del intervalo del bit y un 1 se representa mediante la ausencia de una transición al principio del intervalo.
+27) En la Codificación Manchester Diferencial, Se puede detectar errores si se descubre:
+Una ausencia de transición esperada en la mitad del intervalo.
+28) La modulación 16 PSK consiste en: REPETIDA
+29) El LCR (Control de paridad longitudinal) consiste en:
+Se calcula un bit de paridad para cada columna y se crea una nueva fila de bits, que serán los bits de paridad de todo el bloque, a continuación, se añaden los bits de paridad para cada columna y se crea una nueva fila de bits, que serna los bits de paridad de todo el bloque, a continuación se añaden los bits de paridad al dato y se envía al receptor.
+típicamente los datos se agrupan en unidades de múltiples de ocho
+En esta técnica los bloques de bits se organizan en forma de tablas filas y columnas
+30) En la Comprobación de Redundancia Cíclica (CRC): Se detectan aproximadamente el:
+99.95%
+31) En la comprobación de redundancia cíclica (CRC). El grado del polinomio GENERADOR G(x) debe ser.
+El mismo tanto en el emisor como en el receptor.
+Menor al grado del polinomio M(x)
+
+32) Código Hamming, Algunas características son
+Los bits de datos de la posición k se reescriben como la suma de potencia de 2.
+Se puede incluir un mismo bit de datos en varios cálculos de paridad.
+33) Una fuente binaria de MARKOFF, de orden 4, admitirá:
+16 estados.
+34) Simetría de forma de onda: Si todos los términos de una serie de Fourier son términos en COSENO y, además:
+Tiene un valor promedio distinto a cero, sigue siendo función par.
+Tiene un valor promedio igual a cero, sigue siendo función par.
+35) Simetría de forma de onda: Si todos los términos de una serie de Fourier son términos ARMONICOS IMPARES.
+La simetría de media onda también puede estar presente solo después de la sustracción del valor promedio
+Si la serie contiene solo los armónicos impares del coseno, podemos decir que tiene una simetría de media onda y a su vez es una función par.
+Si la serie contiene solo los armónicos impares del seno, podemos decir que tiene una simetría de media onda y a su vez es una función impar.
+Si la serie contiene los armónicos impares es del seno y del coseno, podemos decir que tiene una simetría de media onda pura. o sea, no es ni par ni impar
+36) El ANCHO DE BANDA para señales analógicas es:
+La longitud, medida en Hertz, del rango de frecuencias en el que se concentra la mayor parte de la potencia de la señal.
+37) Análisis de la forma de onda por el método de Fourier: una armónica es:
+Un múltiplo entero de la frecuencia fundamental.
+38) Análisis de la forma de onda por el método de Fourier: El periodo de la señal total de componentes es el periodo correspondiente a:
+La frecuencia fundamental.
+39) En la CODIFICACION NRZ-L (NON RETURN TO ZERO - LEVEL), es:
+Un nivel negativo para representar un valor binario y una tensión positiva para representar al otro.
+40) Medios Guiados: Cable Coaxial: EL conductor externo tranzado, también llamado malla sirve para:
+Sirve como referencia de tierra y retorno de las corrientes.
+41) Criptografía (Inverso de un numero): Dado un numero a en modulo M y cumple MCD(a, M)=1 entonces.
+a y M son coprimos, a y M son primos relativos, Se dice que el número a tiene inverso en módulo M., a x a^-1 = 1. A CHECKEAR.
+42) Antenas: Cuando se habla de la ganancia de una antena se refiera A:
+Es una medida de direccionalidad.
+43) Medios guiados: Transmisión de datos por fibra óptica, La Dispersión cromática es producida cuando: 
+Las distintas longitudes de onda viajan a distinta velocidad, lo cual ensanchan el pulso en el receptor.
+44) Antenas parabólicas: Indicar cuales son los factores directos que afectan a la perdida de la señal en el espacio libre.
+La longitud de onda
+La frecuencia de la señal
+La distancia
+El diámetro de las antenas parabólica
+El área efectiva de las antenas
+45) Medios Guiados: Fibra óptica, el tipo MM 50/125 OM3 significa:
+Fibra multimodo Tipo 3 con diámetro de núcleo 50 micrómetro y diámetro de revestimiento 125 micrómetro.
+46) Medios Guiados: Fibra óptica, el tipo SM 9/125 OS2 Significa:
+Fibra Monomodo TIPO OS2 con diámetro de núcleo de 9 micrómetros y diámetro de revestimiento de 125 micrómetros.
+47) Criptografía: Máximo común divisor (Método de Euclides)
+El divisor de esta división se divide con su resto obteniéndose una nueva división entera. Este proceso continua hasta que se alcanza una división exacta.
+48) Medios Guiados: Par trenzado: los cables voz de datos o cables estructurados categoría FTP son del tipo.
+Con una pantalla general de cinta de aluminio
+49) Transmisión de datos por fibra óptica: la dispersión ocurre por que:
+El pulso de luz viaja a diferentes velocidades a través de la fibra, dependiendo del mod o de propagación y del ancho espectral de la fuente.
+La dispersión presenta como un ensanchamiento del pulso en el tiempo, que se hace mayor con la longitud
+50) Sistemas modulares (Congruencia MODULO M), dado dos numero A y B en modulo M, se dice que son congruentes cuando:
+Si y solo si se obtiene el mismo residuo al dividir A y B entre M.
+51) Antenas Parabólicas: Dada una antena parabólica de un determinado diámetro, como varia la ganancia obtenida de la antena a medida que voy utilizando señales de mayor frecuencia.
+Con mayor frecuencia se logra mayor ganancia.
+52) Medios guiados: Par Trenzado, en Enlaces de larga distancia, la longitud del trenzado varia entre:
+5 y 15 centímetros
+53) CRIPTOGRAFÍA :DADA UNA TABLA DE SÍMBOLOS Y DE ACUERDO CON EL TIPO DE MÓDULO M. LA CANTIDAD DE INVERSOS QUE SE ENCUENTRAN SON:
+Varios y pueden cambiar en función del módulo.
+54) En un cable UTP, el cable es trenzado para tender a reducir el:
+La diafonía.
+55) Antenas parabólicas: El área efectiva Ae de una antena parabólica es el:
+56%
+56) Medios guiados: Par trenzada, los cables categoría 7 trabajan a frecuencia y velocidad de :
+600 MHZ y 10 Gbps
+57) La característica de una antena omnidireccional:
+Aquella antena que radia al espacio potencia de forma uniforme en todas las direcciones.
+58) Antenas ISOTROTICAS: Indicar cuales son los factors directos que afectan a la perdida de la señal en el espacio libre:
+La frecuencia de la señal
+La distancia
+59) Medios guiados: Par trenzado, los conductores que formar el par tienen un grosos que varía entre:
+0,4 y 0,9 milímetros.
+60) Relación entre el ancho de banda y la velocidad de transmisión, si se mantiene constante la frecuencia central y a la señal se le incrementa cada vez mas la cantidad de armónicos, logramos: A Checkear…
+61) Características de una antena OMNIDIRECCIONAL es:
+Aquella antena que radia al espacio de forma uniforme en todas las direcciones.
+62) En un estudio de factibilidad de un enlace inalámbrico con antenas: como debe ser la relación de la sensibilidad de la señal recibida (SSR) y el margen de desvió típico (MDT) con respecto a la potencia del equipo Receptor (PRX)
+PRX+−MDT>SSR
+63) Teoría de la información: trata los siguientes conceptos básicos:
+La medida de la información
+Información de un símbolo (información autoasignada)
+Entropía (información promedio)
+
+64) La mejor selección entre dos fuentes sin memoria es por su:
+Tasa de información
+65) Medios guiados: par trenzado: los cables categoría 6 trabajan a frecuencia y velocidad de 
+250 MHZ y 1 GPS
+66) Antenas ISOTROPICAS: indicar cuales son los factores directos que afectan a la perdida de la señal en el espacio libre:
+La longitud de onda
+La frecuencia de la señal
+La distancia
+67) Medios guiados: par trenzado: los conductores que forman el par tienen un grosor entre:
+0,4 y 0,9 milímetros.
+68) Medios guiados: Cable coaxial, el conductor externo tranzado, también llamado malla sirve para:
+Referencia de tierra y retorno de las corrientes.
+69) Retraso de transmisión: Cuando se quiere transmitir un paquete fijo P, el retraso de transmisión es menor a medida que: 
+La tasa de transmisión aumente.
+70) En un cable UTP, el cable es trenzado para tender a reducir:
+La diafonía.
+
