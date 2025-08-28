@@ -18,5 +18,7 @@ def leer_archivo(path):
             if page_text:
                 texto += page_text
         return texto
+    elif extension == ".txt":
+        return open(path, 'r', encoding='utf-8').read()
     else:
         raise ValueError("reader.py - Formato no soportado: " + extension)
