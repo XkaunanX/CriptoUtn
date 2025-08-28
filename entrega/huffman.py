@@ -11,7 +11,7 @@ class NodoHuffman:
     def __lt__(self, otro):
         return self.frecuencia < otro.frecuencia
 
-def construir_arbol_huffman(lista_simbolos):
+def construir_arbol_huffman(lista_simbolos): # Agarro los 2 mas pequeños de apares
     heap = []
     for s in lista_simbolos:
         heapq.heappush(heap, NodoHuffman(simbolo=s['Simbolo'], frecuencia=s['Cantidad']))
@@ -25,6 +25,8 @@ def construir_arbol_huffman(lista_simbolos):
         heapq.heappush(heap, combinado)
 
     return heap[0]
+
+# Falta graficarlo
 
 def asignar_codigos_huffman(nodo, prefijo='', diccionario_codigos=None):
     if diccionario_codigos is None:
