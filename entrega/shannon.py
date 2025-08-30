@@ -73,3 +73,25 @@ def dividir_simbolos(simbolos):
 def generar_texto_codificado(datos: dict, texto: str) -> str:
     codigos = datos['Codigos']
     return ''.join(codigos[s] for s in texto)
+
+def generar_texto_codificado_bytes_stream(datos: dict, texto: str):
+    codigos = datos['Codigos']
+    byte_array = bytearray()
+    buffer = 0
+    bits_en_buffer = 0
+
+    for s in texto:
+        codigo = codigos[s]
+        for bit in codigo:
+            buffer = (buffer << 1) | int(bit)
+            bits_en_buffer += 1
+            if bits_en_buffer == 8:
+                byte_array.append(buffer)
+                buffer = 0
+                bits_en_buffer = 0
+    
+    if bits_en_buffer > 0:
+        buffer <<= (8 - bits_en_buffer)
+        byte_array.append(buffer)
+    
+    return bytes(byte_array)

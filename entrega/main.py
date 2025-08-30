@@ -41,8 +41,19 @@ while cola:
     shan = shannon.codificar_shannon_fano(excel.recuperar_simbolos(ruta_simbolos))
     huff = huffman.codificar_huffman(excel.recuperar_simbolos(ruta_simbolos))
     lemp = lempel.lz77_compress_con_metrica(contenido)
+
     with open(f"codificado/{nombre_base}_shannon.txt", "w", encoding="utf-8") as f:
         f.write(shannon.generar_texto_codificado(shan, contenido))
+
+#. cosmo
+    with open(f"codificado/{nombre_base}_shannon.bit", "wb") as f:
+        f.write(shannon.generar_texto_codificado_bytes_stream(shan, contenido))
+
+    with open(f"codificado/{nombre_base}_huffman.bit", "wb") as f:
+        f.write(huffman.generar_texto_codificado_bytes_stream(huff, contenido))
+
+# fin cosmo
+
     with open(f"decodificado/{nombre_base}_shannon.txt", "w", encoding="utf-8") as f:
         f.write(shannon.decodificar_shannon_fano(shan, shannon.generar_texto_codificado(shan, contenido)))
     with open(f"codificado/{nombre_base}_huffman.txt", "w", encoding="utf-8") as f:
