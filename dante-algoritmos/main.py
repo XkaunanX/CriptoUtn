@@ -5,6 +5,9 @@ import simbolos
 import excel
 import huffman
 import promedio
+import shannon
+import generar_archivo
+import decodificar
 
 # Crear directorio para los archivos
 os.makedirs("./planillas", exist_ok=True)
@@ -37,14 +40,25 @@ while cola:
     info_simbolos = simbolos.informacion_simbolos(contenido)
     resultados_simbolos.append(info_simbolos)
     excel.persistir_simbolos(info_simbolos, ruta_simbolos)
+    shan = shannon.codificar_shannon_fano(excel.recuperar_simbolos(ruta_simbolos))
     huff = huffman.codificar_huffman(excel.recuperar_simbolos(ruta_simbolos))
-    codificado, bits_validos = huffman.generar_archivo_codificado(huff, contenido)
+    codificado_huffman, bits_validos_huffman = generar_archivo.generar_archivo_codificado(huff, contenido)
+    codificado_shannon, bits_validos_shannon = generar_archivo.generar_archivo_codificado(shan, contenido)
+    
+    with open(f"codificado/{nombre_base}_shannon.bin", "wb") as f:
+        f.write(bytes([bits_validos_shannon]))
+        f.write(codificado_shannon)
+    with open(f"decodificado/{nombre_base}_shannon{extension}", "wb") as f:
+        f.write(decodificar.decodificar(shan, codificado_shannon, bits_validos_shannon))
+        
     with open(f"codificado/{nombre_base}_huffman.bin", "wb") as f: # uso .bin ya que el archivo codificado esta en bytes y no en caracteres
-        f.write(bytes([bits_validos])) #uso los bits validos para indicar la longitud del ultimo byte a la hora de descomprimir
-        f.write(codificado)
+        f.write(bytes([bits_validos_huffman])) #uso los bits validos para indicar la longitud del ultimo byte a la hora de descomprimir
+        f.write(codificado_huffman)
     with open(f"decodificado/{nombre_base}_huffman{extension}", "wb") as f:
-        f.write(huffman.decodificar_huffman(huff, codificado, bits_validos))
+        f.write(decodificar.decodificar(huff, codificado_huffman, bits_validos_huffman))
+
     excel.persistir_huffman(huff, f"./planillas/{nombre_base}_huffman.xlsx")
+    excel.persistir_shannon_fano(shan, f"./planillas/{nombre_base}_shannon.xlsx")
     
 promedios = promedio.calcular_promedios(resultados_simbolos)
 excel.persistir_promedios(promedios, f"./planillas/promedio_simbolos.xlsx")
