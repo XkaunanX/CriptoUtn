@@ -64,46 +64,6 @@ def codificar_huffman(datos: dict):
     datos['Eficiencia'] = datos['EntropiaTotal'] / longitud_promedio if longitud_promedio > 0 else 0
 
     fin = time.time()
-    datos['TiempoCodificacion'] = fin - inicio
+    datos['TiempoCodificacion'] = round(fin - inicio, 3)
 
     return datos
-
-def decodificar_huffman(datos: dict, archivo_codificado: bytes, bits_validos: bytes):
-    inicio = time.time()
-    codigo_a_simbolo = {v: k for k, v in datos['Codigos'].items()}
-    resultado = bytearray()
-    buffer = ''
-    bits = ''
-    
-    for i, byte in enumerate(archivo_codificado):
-        b = format(byte, "08b")  # convierto un byte a 8 bits
-        if i == len(archivo_codificado) - 1:
-            b = b[:bits_validos]  # último byte: solo los bits válidos
-        bits += b
-    
-    for bit in bits:
-        buffer += bit
-        if buffer in codigo_a_simbolo:
-            resultado.append(codigo_a_simbolo[buffer])
-            buffer = ''
-            
-    fin = time.time()
-    datos['TiempoDecodificacion'] = fin - inicio
-    return bytes(resultado)
-
-def generar_archivo_codificado(datos: dict, archivo_original: bytes):
-    codigos = datos['Codigos']
-    bits = ''.join(codigos[s] for s in archivo_original)
-    bits_validos = len(bits) % 8
-    if bits_validos == 0:
-        bits_validos = 8  #último byte completo
-
-    byteArray = bytearray()
-    
-    for i in range(0, len(bits), 8):
-        byte_segmento = bits[i:i+8] #tomo 8 bits
-        if len(byte_segmento) < 8:
-            byte_segmento = byte_segmento.ljust(8, "0") #si el byte no esta completo, lo completo con ceros
-        byteArray.append(int(byte_segmento, 2)) #agrego el byte al final del array
-    
-    return bytes(byteArray), bits_validos
